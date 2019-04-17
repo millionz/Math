@@ -43,6 +43,7 @@ console.log( divideResult ) //2962.66666666666666666667
  * @param {number} type 小数部分保留方式，以下为type不同的值对应的方式
  * @desc 1:默认方式,有几位就保留几位 2:直接截取,位数不够补零 3:四舍五入,位数不够补零
  */
+ 
 let M = myMath({ decimalPoint : 8 , type : 3 })
 let res = M.divide(8888,3)
 console.log( res )  //28091.778222222222
